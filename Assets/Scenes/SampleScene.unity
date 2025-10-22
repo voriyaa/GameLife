@@ -384,10 +384,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2fd00620796984ab21951257d552c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameController
-  width: 30
-  height: 30
-  speed: 0.2
-  cellPrefab: {fileID: 6077250913613982992, guid: ec9acf1d1c8b29b4191272a076b6faf0, type: 3}
+  w: 30
+  h: 30
+  delay: 0.2
+  cell: {fileID: 1359693807}
+--- !u!1 &1359693807 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6077250913613982992, guid: ec9acf1d1c8b29b4191272a076b6faf0, type: 3}
+  m_PrefabInstance: {fileID: 7127721361794378803}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7127721361794378803
 PrefabInstance:
   m_ObjectHideFlags: 0
